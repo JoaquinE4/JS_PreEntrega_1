@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(../background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contTitle{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    background-color:#ef9a9a00 ;
+    h1{
+        font-size: 120px;
+        color: rgba(201, 127, 182, 0.89);
+        font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+        
+    }
+}

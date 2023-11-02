@@ -20,15 +20,21 @@ if (ageUser && nameUser && emailUser && passUser) {
 }
 
 
-function ageIf(){
-    if(ageUser >= 18){
+function ageIf() {
+    if (ageUser >= 18) {
         alert("Bienvenido " + nameUser);
-    }else{
+    } else {
         alert("No puedes acceder");
     }
+    return
 }
 
 ageIf();
+
+alert("ahora pasa esto")
+
+
+
 
 
 
